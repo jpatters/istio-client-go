@@ -22,9 +22,9 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/authentication/v1alpha1"
-	v1alpha3 "github.com/aspenmesh/istio-client-go/pkg/apis/networking/v1alpha3"
-	rbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/rbac/v1alpha1"
+	v1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/authentication/v1alpha1"
+	v1alpha3 "github.com/jpatters/istio-client-go/pkg/apis/networking/v1alpha3"
+	rbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/rbac/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

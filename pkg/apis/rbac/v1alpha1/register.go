@@ -19,7 +19,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	rbaccontroller "github.com/aspenmesh/istio-client-go/pkg/apis/rbac"
+	rbaccontroller "github.com/jpatters/istio-client-go/pkg/apis/rbac"
 )
 
 // SchemeGroupVersion is group version used to register these objects

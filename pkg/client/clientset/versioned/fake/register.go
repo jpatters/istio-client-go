@@ -20,9 +20,9 @@ limitations under the License.
 package fake
 
 import (
-	authenticationv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/authentication/v1alpha1"
-	networkingv1alpha3 "github.com/aspenmesh/istio-client-go/pkg/apis/networking/v1alpha3"
-	rbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/rbac/v1alpha1"
+	authenticationv1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/authentication/v1alpha1"
+	networkingv1alpha3 "github.com/jpatters/istio-client-go/pkg/apis/networking/v1alpha3"
+	rbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/rbac/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

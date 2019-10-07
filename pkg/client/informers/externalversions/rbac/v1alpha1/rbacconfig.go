@@ -22,10 +22,10 @@ package v1alpha1
 import (
 	time "time"
 
-	rbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/rbac/v1alpha1"
-	versioned "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/aspenmesh/istio-client-go/pkg/client/informers/externalversions/internalinterfaces"
-	v1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/listers/rbac/v1alpha1"
+	rbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/rbac/v1alpha1"
+	versioned "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/jpatters/istio-client-go/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/jpatters/istio-client-go/pkg/client/listers/rbac/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

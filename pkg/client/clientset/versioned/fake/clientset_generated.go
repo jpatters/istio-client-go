@@ -20,13 +20,13 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned"
-	authenticationv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1"
-	fakeauthenticationv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake"
-	networkingv1alpha3 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3"
-	fakenetworkingv1alpha3 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake"
-	rbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1"
-	fakerbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1/fake"
+	clientset "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned"
+	authenticationv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1"
+	fakeauthenticationv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1/fake"
+	networkingv1alpha3 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3"
+	fakenetworkingv1alpha3 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3/fake"
+	rbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1"
+	fakerbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

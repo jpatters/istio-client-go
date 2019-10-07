@@ -20,8 +20,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/aspenmesh/istio-client-go/pkg/apis/authentication/v1alpha1"
-	"github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/jpatters/istio-client-go/pkg/apis/authentication/v1alpha1"
+	"github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

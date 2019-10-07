@@ -22,9 +22,9 @@ package versioned
 import (
 	"fmt"
 
-	authenticationv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1"
-	networkingv1alpha3 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3"
-	rbacv1alpha1 "github.com/aspenmesh/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1"
+	authenticationv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/authentication/v1alpha1"
+	networkingv1alpha3 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/networking/v1alpha3"
+	rbacv1alpha1 "github.com/jpatters/istio-client-go/pkg/client/clientset/versioned/typed/rbac/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
