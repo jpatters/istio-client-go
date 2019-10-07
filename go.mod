@@ -1,4 +1,4 @@
-module github.com/aspenmesh/istio-client-go
+module github.com/jpatters/istio-client-go
 
 go 1.12
 
